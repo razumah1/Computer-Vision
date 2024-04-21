@@ -1,1 +1,35 @@
+Object Size Measurement using DepthAI and OpenCV
+Overview
+This Python script utilizes the DepthAI library along with OpenCV to measure the size of objects detected in a camera frame. The script detects Aruco markers as reference points and uses them to calculate the size of objects in the scene. The size is displayed in centimeters on the video feed.
 
+Requirements
+Python 3.x
+DepthAI library
+OpenCV library
+Numpy library
+Object Detector module (imported as HomogeneousBgDetector)
+Setup
+Install Python 3.x if not already installed.
+
+Install the required libraries using pip:
+
+Copy code
+pip install depthai opencv-python numpy
+Ensure that the object_detector.py file containing the HomogeneousBgDetector class is available in the same directory or accessible through Python's module search path.
+
+Usage
+Run the script by executing the Python file.
+
+Copy code
+python script_name.py
+A window will open displaying the camera feed. Aruco markers and detected objects will be outlined, with their respective dimensions displayed in centimeters.
+
+Press the 'q' key to exit the application.
+
+Customization
+The script can be modified to use a different camera resolution or frame rate by adjusting the parameters in the camRgb.setResolution() and camRgb.setFps() methods, respectively.
+Additional object detection or image processing techniques can be integrated into the script to enhance its functionality.
+Dependencies
+DepthAI: DepthAI is an embedded platform built to enable depth perception in applications. It provides tools for running neural networks and processing camera data efficiently.
+OpenCV: OpenCV is a popular computer vision library used for various image processing tasks, including object detection and manipulation.
+Numpy: Numpy is a fundamental package for scientific computing with Python, used for numerical operations and array manipulation.
