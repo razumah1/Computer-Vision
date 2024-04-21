@@ -10,10 +10,10 @@ This repository contains the code and documentation for Assignment 2 of the Comp
 #### Part A: Code Implementation
 
 1. **Canny Edge Detection:**
-   - Implement Canny edge detection manually and compare the results with MATLAB, OpenCV, or DepthAI's Canny edge detection function.
+   - Canny edge detection is manually implemented and the results compared with  OpenCV's Canny edge detection function.
 
 2. **Harris Corner Detection:**
-   - Implement Harris corner detection manually and compare the results with MATLAB, OpenCV, or DepthAI's Harris corner detection function.
+   - Harris corner detection is manually implemented and the results compared with OpenCV's Harris corner detection function.
 
 3. **SIFT Feature Matching and Homography:**
    - Compute SIFT feature vectors and perform feature matching between two images.
@@ -21,15 +21,13 @@ This repository contains the code and documentation for Assignment 2 of the Comp
    - Compute the Homography matrix between the two images and its inverse using MATLAB, Python, or C++.
 
 4. **Integral Image and RGB Feed Display:**
-   - Implement an application to compute and display the integral image feed along with the RGB feed.
-   - Avoid using built-in functions such as "integral_image(input)".
+   - An application to compute and display the integral image feed along with the RGB feed was implemented.
 
 5. **Image Stitching for Panoramic Output:**
    - Implement real-time image stitching for a 360-degree panoramic output.
-   - Utilize any type of features and avoid using built-in functions like "image_stitch(image1, image2)".
-   
+   - 
 6. **Integration with Web Application:**
-   - Integrate the applications developed for problems 4 and 5 with the web application from Assignment 1, Problem 4.
+   - The "app.py" file is the web application integration of the assignment. Run the app.py file and click the ip address to be redirected to the webpage.
 
 ---
 
