@@ -21,6 +21,11 @@ Question 7: Fundamental Matrix Computation and Rectification
 The script computes the fundamental matrix between a pair of stereo images and rectifies them for stereo vision applications.
 Question 8: Object Detection and Tracking with ArUco Markers and Haar Cascade Classifier
 
+Integration with Web Application:
+
+The app.py file integrates the project with a web application.
+Run app.py and click the IP address to be redirected to the webpage.
+
 This script detects and tracks objects using ArUco markers for identification and a Haar cascade classifier for face detection.
 Dependencies:
 Python 3.x
